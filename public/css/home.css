@@ -1,0 +1,504 @@
+/* ---------- HEADER ---------- */
+
+header {
+    background-color: var(--colorAzul);
+    width: 100%;
+    padding-left: 5%;
+}
+
+header a {
+    text-transform: uppercase;
+}
+
+header a h3 {
+    font-size: 20px;
+    color: #fff;
+    padding-top: 5%;
+}
+
+header button {
+    background-color: var(--colorVerde);
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 8%;
+    margin-top: 5%;
+    border: none;
+}
+
+header .contenedor-menu {}
+
+.contenedor-menu ul {
+    display: none;
+}
+
+.contenedor-menu ul li {}
+
+.contenedor-menu ul li a {}
+
+/* ---------- MAIN ---------- */
+
+.porfolio {}
+
+/* FREELANCE */
+
+.portfolio .contenedor-freelance {
+    background-color: var(--colorVerde);
+    color: #fff;
+    text-align: center;
+    padding-top: 55px;
+}
+
+.porfolio .contenedor-freelance figure {}
+
+.porfolio .contenedor-freelance img {}
+
+.portfolio .contenedor-freelance h1 {
+    font-size: 45px;
+    font-weight: 800;
+    padding-top: 40px;
+}
+
+.contenedor-icono {
+    margin-left: 40px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-icono hr {
+    border: 2px solid;
+    width: 100px;
+}
+
+.portfolio .contenedor-icono h4 {
+    font-size: 30px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.porfolio .contenedor-icono hr {}
+
+.contenedor-freelance p {
+    padding-bottom: 20%;
+    font-size: 21px;
+}
+
+/* IMAGENES */
+
+.container-img {
+    color: var(--colorAzul);
+    text-align: center;
+    padding-top: 20%;
+}
+
+.container-img h2 {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.container-img .contenedor-imgs {
+    margin-bottom: 85px;
+}
+
+.container-img .contenedor-imgs img {
+    width: 300px;
+    margin-bottom: 4%;
+}
+
+/* ABOUT */
+
+.container-about {
+    background-color: var(--colorVerde);
+    color: #fff;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 35%;
+}
+
+.container-about h2 {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.container-about article {
+    padding: 5%;
+    margin-bottom: 15px;
+}
+
+.container-about article p {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    padding-bottom: 5%;
+}
+
+.container-about a {
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5%;
+}
+
+.container-about i {
+    padding: 0 10px;
+}
+
+/* CONTACTO */
+
+.contenedor-contacto {
+    padding-top: 25%;
+    color: var(--colorAzul);
+}
+
+.contenedor-contacto h2 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.contenedor-contacto form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-contacto form label {
+    font-size: 22px;
+    padding: 5%;
+    color: rgba(44, 62, 80, 0.7);
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.contenedor-contacto form input {
+    width: 90%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid rgba(44, 62, 80, 0.1);
+    color: var(--colorAzul);
+    outline: none;
+    margin-bottom: 10%;
+}
+
+.contenedor-contacto form textarea {
+    width: 90%;
+    height: 200px;
+    border: none;
+    border-bottom: 1px solid rgba(44, 62, 80, 0.1);
+    color: var(--colorAzul);
+    outline: none;
+    padding: 8px;
+    resize: none;
+}
+
+.contenedor-contacto form button {
+    background-color: var(--colorVerde);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px 0px 100px 15px;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    background-color: var(--colorAzul);
+    color: #fff;
+    text-align: center;
+    padding-top: 25%;
+}
+
+footer .container-footer {}
+
+.container-footer h3 {
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+
+.container-footer p {
+    font-size: 21px;
+}
+
+.container-footer article {
+    padding-bottom: 33px;
+}
+
+/* LOCATION */
+
+/* REDES */
+
+.redes .redes-icon {}
+
+footer .redes .redes-icon a {}
+
+.redes .redes-icon i {
+    border: solid 2px white;
+    padding: 16px;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+
+.redes .redes-icon i:last-child {
+    margin-top: -8px;
+}
+
+/* ABOUT */
+
+footer .about-footer span {
+    color: var(--colorVerde);
+}
+
+/* COPY */
+
+footer .copy {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 10%;
+    padding: 25px 0px;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 13px;
+}
+
+/* ---------- MEDIA QUERIES --------- */
+
+/* TABLET */
+
+@media (min-width: 768px) {
+
+    /* ---------- HEADER ---------- */
+
+    header {}
+
+    header a {}
+
+    header a h3 {}
+
+    header button {}
+
+    .contenedor-menu {}
+
+    .contenedor-menu ul {}
+
+    .contenedor-menu ul li {}
+
+    .contenedor-menu ul li a {}
+
+    /* ---------- MAIN ---------- */
+
+    .porfolio {}
+
+    /* FREELANCE */
+
+    .portfolio .contenedor-freelance {}
+
+    .porfolio .contenedor-freelance figure {}
+
+    .porfolio .contenedor-freelance img {}
+
+    .portfolio .contenedor-freelance h1 {}
+
+    .contenedor-icono {}
+
+    .contenedor-icono hr {}
+
+    .portfolio .contenedor-icono h4 {}
+
+    .porfolio .contenedor-icono hr {}
+
+    .contenedor-freelance p {}
+
+    /* IMAGENES */
+
+    .container-img {}
+
+    .container-img h2 {}
+
+    .container-img .contenedor-imgs {}
+
+    .container-img .contenedor-imgs img {}
+
+    /* ABOUT */
+
+    .container-about {}
+
+    .container-about h2 {}
+
+    .container-about article {}
+
+    .container-about article p {}
+
+    .container-about a {}
+
+    .container-about i {}
+
+    /* CONTACTO */
+
+    .contenedor-contacto {}
+
+    .contenedor-contacto h2 {}
+
+    .contenedor-contacto form {}
+
+    .contenedor-contacto form label {}
+
+    .contenedor-contacto form input {}
+
+    .contenedor-contacto form textarea {}
+
+    .contenedor-contacto form button {}
+
+    /* ---------- FOOTER ---------- */
+
+    footer {}
+
+    footer .container-footer {}
+
+    .container-footer h3 {}
+
+    .container-footer p {}
+
+    .container-footer article {}
+
+    /* LOCATION */
+
+    /* REDES */
+
+    .redes .redes-icon {}
+
+    footer .redes .redes-icon a {}
+
+    .redes .redes-icon i {}
+
+    .redes .redes-icon i:last-child {}
+
+    /* ABOUT */
+
+    footer .about-footer span {}
+
+    /* COPY */
+
+    footer .copy {}
+
+}
+
+/* DESKTOP */
+
+@media (min-width: 1024px) {
+    /* ---------- HEADER ---------- */
+
+    header {}
+
+    header a {}
+
+    header a h3 {}
+
+    header button {}
+
+    header .contenedor-menu {}
+
+    .contenedor-menu ul {}
+
+    .contenedor-menu ul li {}
+
+    .contenedor-menu ul li a {}
+
+    /* ---------- MAIN ---------- */
+
+    .porfolio {}
+
+    /* FREELANCE */
+
+    .portfolio .contenedor-freelance {}
+
+    .porfolio .contenedor-freelance img {}
+
+    .portfolio .contenedor-freelance h1 {}
+
+    .contenedor-icono {}
+
+    .contenedor-icono hr {}
+
+    .portfolio .contenedor-icono h4 {}
+
+    .porfolio .contenedor-icono hr {}
+
+    .contenedor-freelance p {}
+
+    /* IMAGENES */
+
+    .container-img {}
+
+    .container-img h2 {}
+
+    .container-img .contenedor-imgs {}
+
+    .container-img .contenedor-imgs img {}
+
+    /* ABOUT */
+
+    .container-about {}
+
+    .container-about h2 {}
+
+    .container-about article {}
+
+    .container-about article p {}
+
+    .container-about a {}
+
+    .container-about i {}
+
+    /* CONTACTO */
+
+    .contenedor-contacto {}
+
+    .contenedor-contacto h2 {}
+
+    .contenedor-contacto form {}
+
+    .contenedor-contacto form label {}
+
+    .contenedor-contacto form input {}
+
+    .contenedor-contacto form textarea {}
+
+    .contenedor-contacto form button {}
+
+    /* ---------- FOOTER ---------- */
+
+    footer {}
+
+    footer .container-footer {}
+
+    .container-footer h3 {}
+
+    .container-footer p {}
+
+    .container-footer article {}
+
+    /* LOCATION */
+
+    /* REDES */
+
+    .redes .redes-icon {}
+
+    footer .redes .redes-icon a {}
+
+    .redes .redes-icon i {}
+
+    .redes .redes-icon i:last-child {}
+
+    /* ABOUT */
+
+    footer .about-footer span {}
+
+    /* COPY */
+
+    footer .copy {}
+}
